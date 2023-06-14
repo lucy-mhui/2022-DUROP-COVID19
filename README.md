@@ -1,0 +1,8 @@
+# GISAID and Nextstrain
+Impact of data access models on the detection of  SARS-CoV-2 variants of concern
+
+## Project description
+To date, nearly 15 million SARS-CoV-2 genomes have been published through the GISAID (Global Initiative for Sharing All Influenza Data) database. These data have played a central role in tracking the spread of this virus, and the identification of "variants of concern" (VoCs) associated with rapid outbreaks. However, there has been controversy around GISAID's model for data access, which is controlled by a user registration system and Terms of Use that restricts the re-distribution of data or derived results. As a result, some researchers have advocated for more open models of data sharing, including the Nextstrain open data resource that curates SARS-CoV-2 genomes in the NCBI Genbank database. However, there are substantial differences in the rates that genomes are uploaded to these databases.
+
+### Objective
+Our objective was to examine the impact of different data access models on the time until an emerging VoC could be detected from genomic data. We obtained variant classifications and sample collection and genome submission dates for 10.6 and 4.7 million genomes from GISAID and Nextstrain, respectively. For each WHO-defined VoC (Alpha, Beta, Gamma, Delta and Omicron), we used logistic regression to determine the earliest dates at which a significant difference in relative growth rates could be detected for an emerging VoC. These dates were consistently earlier using the GISAID database (mean 3 months, range 1-6 months). Therefore, the expected delay in detecting a new VoC - if one was limited to using an open access database - can be on the same time scale as the emergence and establishment of the VoC.
